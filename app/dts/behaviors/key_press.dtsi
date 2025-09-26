@@ -16,5 +16,11 @@
             #binding-cells = <1>;
             display-name = "Key Press";
         };
+
+        unicode_kp: unicode_kp {
+            compatible = "zmk,unicode";
+            #binding-cells = <1>;
+            display-name = "Unicode Key";
+        };
     };
 };
